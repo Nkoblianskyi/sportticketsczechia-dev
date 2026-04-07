@@ -74,7 +74,7 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     label: 'Email',
-                    lines: ['info@sportticketsczechia.com'],
+                    lines: ['info@czechiasporttrip.com'],
                   },
                   {
                     icon: Phone,

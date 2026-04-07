@@ -2,8 +2,8 @@ import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 
 export const metadata = {
-  title: 'Privacy Policy — SportTicketsCzechia',
-  description: 'How SportTicketsCzechia collects, uses and protects your personal data.',
+  title: 'Privacy Policy — czechiasporttrip',
+  description: 'How czechiasporttrip collects, uses and protects your personal data.',
 }
 
 export default function PrivacyPolicyPage() {
@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
             {[
               {
                 title: '1. Who We Are',
-                body: 'This website is operated by K.C. NTOMATA LIMITED, registered in Cyprus (Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus). We operate the website sportticketsczechia.com. In this Privacy Policy, "we", "us" and "our" refer to K.C. NTOMATA LIMITED.',
+                body: 'This website is operated by K.C. NTOMATA LIMITED, registered in Cyprus (Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus). We operate the website czechiasporttrip.com. In this Privacy Policy, "we", "us" and "our" refer to K.C. NTOMATA LIMITED.',
               },
               {
                 title: '2. Data We Collect',
@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
               },
               {
                 title: '6. Your Rights',
-                body: 'Under GDPR you have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion ("right to be forgotten") where data is no longer needed; withdraw consent at any time; lodge a complaint with your local supervisory authority. To exercise any right, contact us at info@sportticketsczechia.com.',
+                body: 'Under GDPR you have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion ("right to be forgotten") where data is no longer needed; withdraw consent at any time; lodge a complaint with your local supervisory authority. To exercise any right, contact us at info@czechiasporttrip.com.',
               },
               {
                 title: '7. Data Security',
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
               },
               {
                 title: '9. Contact',
-                body: 'For any privacy-related questions, write to: info@sportticketsczechia.com or by post to K.C. NTOMATA LIMITED, Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus.',
+                body: 'For any privacy-related questions, write to: info@czechiasporttrip.com or by post to K.C. NTOMATA LIMITED, Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus.',
               },
             ].map((section) => (
               <div key={section.title} className="border-b border-border pb-8 last:border-0">

@@ -2,8 +2,8 @@ import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 
 export const metadata = {
-  title: 'Cookie Policy — SportTicketsCzechia',
-  description: 'How SportTicketsCzechia uses cookies and how you can control them.',
+  title: 'Cookie Policy — czechiasporttrip',
+  description: 'How czechiasporttrip uses cookies and how you can control them.',
 }
 
 export default function CookiePolicyPage() {
@@ -35,7 +35,7 @@ export default function CookiePolicyPage() {
               },
               {
                 title: '3. Cookies We Set',
-                body: 'stc-cookie-consent — stores your cookie consent choice. Expires after 365 days. Essential, no personal data. We may also set session cookies that expire when you close your browser to support basic site functionality.',
+                body: 'cst-cookie-consent — stores your cookie consent choice. Expires after 365 days. Essential, no personal data. We may also set session cookies that expire when you close your browser to support basic site functionality.',
               },
               {
                 title: '4. Third-Party Cookies',
@@ -51,7 +51,7 @@ export default function CookiePolicyPage() {
               },
               {
                 title: '7. Contact',
-                body: 'If you have any questions about our use of cookies, contact us at: info@sportticketsczechia.com or by post to K.C. NTOMATA LIMITED, Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus.',
+                body: 'If you have any questions about our use of cookies, contact us at: info@czechiasporttrip.com or by post to K.C. NTOMATA LIMITED, Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, 2019 Nicosia, Cyprus.',
               },
             ].map((section) => (
               <div key={section.title} className="border-b border-border pb-8 last:border-0">

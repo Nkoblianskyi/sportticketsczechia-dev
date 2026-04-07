@@ -16,15 +16,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'SportTicketsCzechia — Author-Led Tours',
+  title: 'czechiasporttrip — Author-Led Tours',
   description: 'Author-led cycling tours, moto road journeys and mountain hikes across Czechia and Europe. Small groups, hand-scouted routes, real local moments.',
   keywords: 'author tours, guided tours, cycling tour, moto tour, mountain hike, Czechia, Europe, small group, curated itineraries',
-  metadataBase: new URL('https://sportticketsczechia.com'),
+  metadataBase: new URL('https://czechiasporttrip.com'),
   openGraph: {
-    title: 'SportTicketsCzechia — Author-Led Tours',
+    title: 'czechiasporttrip — Author-Led Tours',
     description: 'Author-led cycling tours, moto road journeys and mountain hikes across Czechia and Europe.',
-    url: 'https://sportticketsczechia.com',
-    siteName: 'SportTicketsCzechia',
+    url: 'https://czechiasporttrip.com',
+    siteName: 'czechiasporttrip',
     locale: 'en_US',
     type: 'website',
   },

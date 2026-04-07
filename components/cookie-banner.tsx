@@ -7,17 +7,17 @@ export function CookieBanner() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    const consent = localStorage.getItem('stc-cookie-consent')
+    const consent = localStorage.getItem('cst-cookie-consent')
     if (!consent) setVisible(true)
   }, [])
 
   const accept = () => {
-    localStorage.setItem('stc-cookie-consent', 'accepted')
+    localStorage.setItem('cst-cookie-consent', 'accepted')
     setVisible(false)
   }
 
   const decline = () => {
-    localStorage.setItem('stc-cookie-consent', 'declined')
+    localStorage.setItem('cst-cookie-consent', 'declined')
     setVisible(false)
   }
 

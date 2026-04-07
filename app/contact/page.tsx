@@ -77,11 +77,6 @@ export default function ContactPage() {
                     lines: ['info@czechiasporttrip.com'],
                   },
                   {
-                    icon: Phone,
-                    label: 'Phone',
-                    lines: ['+357 22 000 000'],
-                  },
-                  {
                     icon: Clock,
                     label: 'Response Hours',
                     lines: ['Monday – Friday: 09:00 – 18:00 CET', 'Saturday: 10:00 – 14:00 CET'],

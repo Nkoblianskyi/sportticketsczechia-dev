@@ -11,9 +11,7 @@ const categories: { value: TourCategory | 'all'; label: string }[] = [
   { value: 'all', label: 'All Tours' },
   { value: 'cycling', label: 'Cycling' },
   { value: 'moto', label: 'Moto' },
-  { value: 'marathon', label: 'Marathon' },
   { value: 'hiking', label: 'Hiking' },
-  { value: 'trail', label: 'Trail Run' },
 ]
 
 const difficulties = ['All', 'Easy', 'Moderate', 'Hard', 'Expert']
@@ -58,7 +56,7 @@ export default function ToursPage() {
           <div className="max-w-6xl mx-auto px-4 py-14 relative z-10">
             <p className="text-neon font-sans text-[10px] tracking-widest uppercase mb-2">Discover</p>
             <h1 className="font-sans text-3xl md:text-4xl font-black text-foreground text-balance">
-              All Sport Tours
+              All Author Tours
             </h1>
             <p className="text-muted-foreground text-sm mt-2 max-w-lg" style={{ fontFamily: 'var(--font-inter)' }}>
               {tours.length} author-crafted routes across Czech Republic and Europe. Filter by type, difficulty or destination.

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const tour = tours.find((t) => t.slug === slug)
   if (!tour) return {}
   return {
-    title: `${tour.title} — SportTicketsCzechia`,
+    title: `${tour.title} — AuthorToursCzechia`,
     description: tour.description,
   }
 }
@@ -146,7 +146,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
               </div>
             </div>
 
-            {/* ── Sidebar booking */}
+            {/* ── Sidebar enquiry */}
             <div className="md:col-span-1">
               <div className="card-futuristic clip-corner p-5 sticky top-24">
                 <div className="flex flex-col gap-2 text-xs mb-5" style={{ fontFamily: 'var(--font-inter)' }}>
@@ -164,7 +164,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ slu
                 </div>
 
                 <Link href="/contact" className="neon-btn-filled w-full py-3 text-xs clip-corner-sm flex items-center justify-center gap-2 mb-3">
-                  Book This Tour <ArrowRight size={13} />
+                  Request to Join <ArrowRight size={13} />
                 </Link>
                 <Link href="/contact" className="neon-btn w-full py-2.5 text-xs clip-corner-sm flex items-center justify-center gap-2">
                   Ask a Question

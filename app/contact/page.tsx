@@ -48,7 +48,7 @@ export default function ContactPage() {
               Contact <span className="text-neon">Us</span>
             </h1>
             <p className="text-muted-foreground text-sm mt-2 max-w-lg" style={{ fontFamily: 'var(--font-inter)' }}>
-              Questions about a tour, a booking request, or just want to know more? We typically reply within 24 hours.
+              Questions about a tour, a join request, or just want to know more? We typically reply within 24 hours.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     label: 'Email',
-                    lines: ['info@sportticketsczechia.com'],
+                    lines: ['info@authortoursczechia.com'],
                   },
                   {
                     icon: Phone,
@@ -147,7 +147,7 @@ export default function ContactPage() {
                     style={{ fontFamily: 'var(--font-inter)' }}
                   >
                     <option value="">Select a topic…</option>
-                    <option value="booking">Booking Enquiry</option>
+                    <option value="join">Join Request</option>
                     <option value="question">General Question</option>
                     <option value="custom">Custom / Private Tour</option>
                     <option value="other">Other</option>

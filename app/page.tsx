@@ -22,7 +22,7 @@ const tips = [
   {
     icon: Mountain,
     title: 'Acclimatise Before High Altitude',
-    body: 'If you are joining a mountain hike above 2 000 m, spend at least one night at mid-altitude beforehand. Altitude sickness affects even fit athletes unexpectedly.',
+    body: 'If you are joining a mountain hike above 2 000 m, spend at least one night at mid-altitude beforehand. Altitude can affect anyone unexpectedly — take it seriously.',
   },
   {
     icon: Zap,
@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: 'How early should I book?',
-    a: 'Expert and small-group tours fill up fast — often 3–4 months in advance. For peak summer slots we recommend booking as soon as your dates are confirmed. A 30% deposit holds your place.',
+    a: 'Small-group tours fill up fast — often 3–4 months in advance. For peak summer dates we recommend sending an enquiry as soon as you know your preferred window. We will confirm availability and next steps by email.',
   },
 ]
 
@@ -77,7 +77,7 @@ const whyChooseUs = [
   {
     icon: Shield,
     title: 'No Corporate Noise',
-    body: 'No brand placements, no sponsored stops, no inflated group sizes. Every route decision is made for the athlete, not a marketing budget.',
+    body: 'No brand placements, no sponsored stops, no inflated group sizes. Every route decision is made for the experience, not a marketing budget.',
   },
   {
     icon: Map,
@@ -109,7 +109,7 @@ const whyChooseUs = [
 const stats = [
   { value: 8, suffix: '+', label: 'Countries' },
   { value: 14, suffix: '', label: 'Active Routes' },
-  { value: 500, suffix: '+', label: 'Athletes Guided' },
+  { value: 500, suffix: '+', label: 'Guests Guided' },
   { value: 6, suffix: '', label: 'Years Running' },
 ]
 
@@ -183,13 +183,13 @@ export default function HomePage() {
           </div>
 
           <h1 className="font-sans text-3xl md:text-5xl font-black text-foreground leading-tight tracking-wide text-balance mb-5">
-            Author <span className="text-neon neon-text">Sport Tours</span><br />
-            Built for Athletes
+            Author-Led <span className="text-neon neon-text">Tours</span><br />
+            Built for Real Travel
           </h1>
 
           <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-8 text-pretty max-w-lg mx-auto" style={{ fontFamily: 'var(--font-inter)' }}>
-            Cycling loops, moto crossings, mountain hikes, marathons and trail runs —
-            curated by passionate guides with no corporate noise, no brand padding.
+            Cycling loops, moto road journeys, and mountain hikes —
+            curated by passionate guides with small groups and hand-scouted routes.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -215,7 +215,7 @@ export default function HomePage() {
           <div className="ticker-track">
             {[...Array(2)].map((_, i) => (
               <div key={i} className="flex items-center gap-10 px-5">
-                {['Cycling Tours', 'Moto Adventures', 'Mountain Hikes', 'Marathons', 'Trail Runs', 'Czech Republic', 'Austria', 'Slovakia', 'Italy', 'Bosnia', 'Montenegro'].map((item) => (
+                {['Cycling Tours', 'Moto Road Journeys', 'Mountain Hikes', 'Czechia', 'Austria', 'Slovakia', 'Italy', 'Bosnia', 'Montenegro'].map((item) => (
                   <span key={item} className="text-neon font-sans text-[10px] tracking-[0.2em] uppercase whitespace-nowrap">
                     ◆ {item}
                   </span>
@@ -241,7 +241,7 @@ export default function HomePage() {
             </div>
             {/* stat boxes */}
             <div className="absolute -bottom-5 -right-3 md:right-0 flex gap-2">
-              {[{ n: '8+', l: 'Countries' }, { n: '14', l: 'Routes' }, { n: '500+', l: 'Athletes' }].map((s) => (
+              {[{ n: '8+', l: 'Countries' }, { n: '14', l: 'Routes' }, { n: '500+', l: 'Guests' }].map((s) => (
                 <div key={s.l} className="card-futuristic clip-corner-sm p-3 text-center min-w-[72px] border-neon/30">
                   <p className="text-neon font-sans font-black text-lg leading-none">{s.n}</p>
                   <p className="text-muted-foreground text-[9px] font-sans tracking-widest uppercase mt-0.5">{s.l}</p>
@@ -256,7 +256,7 @@ export default function HomePage() {
               Real Guides.<br />Raw Routes.<br /><span className="text-neon">Zero Noise.</span>
             </h2>
             <p className="text-muted-foreground text-sm leading-relaxed mb-5" style={{ fontFamily: 'var(--font-inter)' }}>
-              We are a compact team of athletes turned guides, based in the Czech Republic with routes spanning eight European countries. Every tour on this site was designed, scouted and tested by someone who has ridden, run or hiked it personally — not copied from a catalogue.
+              We are a compact team of guides and route designers, based in Czechia with routes spanning eight European countries. Every tour on this site is designed, scouted and tested by someone who has ridden or hiked it personally — not copied from a catalogue.
             </p>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6" style={{ fontFamily: 'var(--font-inter)' }}>
               No brand sponsorships mean no logo placements on jerseys, no forced stops at partner cafes, no inflated group sizes to hit commercial targets.
@@ -348,7 +348,7 @@ export default function HomePage() {
         <div className="mb-10">
           <p className="text-neon font-sans text-[10px] tracking-widest uppercase mb-2">Knowledge Base</p>
           <h2 className="font-sans text-2xl md:text-3xl font-bold text-foreground text-balance">
-            Tips for Sport Tourism
+            Tips for Author-Led Tours
           </h2>
         </div>
 

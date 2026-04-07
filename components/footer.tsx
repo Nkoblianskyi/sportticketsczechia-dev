@@ -18,18 +18,18 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 border border-neon clip-corner-sm flex items-center justify-center">
-                <span className="text-neon font-sans text-xs font-bold">ST</span>
+                <span className="text-neon font-sans text-xs font-bold">AT</span>
               </div>
               <span className="font-sans text-sm font-bold tracking-widest text-foreground uppercase">
-                SportTickets<span className="text-neon">Czechia</span>
+                AuthorTours<span className="text-neon">Czechia</span>
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed" style={{ fontFamily: 'var(--font-inter)' }}>
-              Author sport tours across Czech Republic and Europe. Cycling, moto, hiking, marathons — curated experiences, zero crowd noise.
+              Author-led tours across Czechia and Europe. Cycling days, moto road journeys and mountain hikes — small groups, hand-scouted routes, zero noise.
             </p>
             <div className="mt-4 flex items-center gap-2 text-muted-foreground text-xs">
               <Globe size={12} className="text-neon" />
-              <span style={{ fontFamily: 'var(--font-inter)' }}>sportticketsczechia.com</span>
+              <span style={{ fontFamily: 'var(--font-inter)' }}>authortoursczechia.com</span>
             </div>
           </div>
 
@@ -65,8 +65,8 @@ export function Footer() {
             </div>
             <div className="mt-3 flex items-center gap-2 text-muted-foreground text-sm">
               <Mail size={14} className="text-neon" />
-              <a href="mailto:info@sportticketsczechia.com" className="hover:text-neon transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
-                info@sportticketsczechia.com
+              <a href="mailto:info@authortoursczechia.com" className="hover:text-neon transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
+                info@authortoursczechia.com
               </a>
             </div>
           </div>

@@ -4,17 +4,17 @@ import { Footer } from '@/components/footer'
 import { Bike, Mountain, Zap, Heart } from 'lucide-react'
 
 const values = [
-  { icon: Bike, title: 'Author-Built Routes', body: 'Every itinerary was personally scouted, ridden or walked by a member of our team before it went on sale. We never publish a tour we have not experienced ourselves.' },
+  { icon: Bike, title: 'Author-Built Routes', body: 'Every itinerary is personally scouted, ridden or walked by our team before it appears on the site. We only share routes we have truly experienced.' },
   { icon: Mountain, title: 'Small Groups Only', body: 'We cap group sizes strictly so the trail experience stays intimate and the environmental footprint stays minimal. Big groups are simply not our model.' },
   { icon: Zap, title: 'No Brand Partnerships', body: 'We carry no sponsor deals. This means you will never be steered towards a partner hotel, gear shop or commercial venue for commercial reasons.' },
   { icon: Heart, title: 'Safety First', body: 'Every guide holds a current first-aid certification. All mountain and high-altitude routes include satellite emergency communication.' },
 ]
 
 const team = [
-  { name: 'Martin K.', role: 'Lead Cycling Guide', bio: '18 years guiding cycling tours across Central Europe. Former competitive road cyclist. Fluent in Czech, German and English.' },
+  { name: 'Martin K.', role: 'Lead Cycling Guide', bio: '18 years guiding cycling tours across Central Europe. Fluent in Czech, German and English.' },
   { name: 'Petra V.', role: 'Mountain & Hiking Lead', bio: 'Certified high-mountain guide (UIAGM). Tatras specialist with more than 400 ascents of major Czech and Slovak summits.' },
   { name: 'Ondřej S.', role: 'Moto Routes Director', bio: 'Designed every moto itinerary from first scouting ride to final GPS file. Passionate about lesser-known Balkan passes.' },
-  { name: 'Jana H.', role: 'Client Experience', bio: 'Handles every booking, question and post-tour debrief personally. Former ultra-runner and obsessive tour planner.' },
+  { name: 'Jana H.', role: 'Guest Experience', bio: 'Handles every enquiry, question and post-tour debrief personally. Detail-oriented itinerary planner and logistics lead.' },
 ]
 
 export default function AboutPage() {
@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="max-w-6xl mx-auto px-4 py-14 relative z-10">
             <p className="text-neon font-sans text-[10px] tracking-widest uppercase mb-2">Who We Are</p>
             <h1 className="font-sans text-3xl md:text-4xl font-black text-foreground text-balance max-w-xl">
-              Built by Athletes,<br />Run for <span className="text-neon">Athletes</span>
+              Built by Guides,<br />Run for <span className="text-neon">Curious Travelers</span>
             </h1>
           </div>
         </div>
@@ -38,11 +38,11 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-sans text-xl font-bold text-foreground mb-4 text-balance">
-                How SportTicketsCzechia Started
+                How AuthorToursCzechia Started
               </h2>
               <div className="flex flex-col gap-4 text-muted-foreground text-sm leading-relaxed" style={{ fontFamily: 'var(--font-inter)' }}>
                 <p>
-                  In 2018, a group of athletes tired of overpriced, under-planned commercial sport tours decided to do it differently. Starting with a single cycling route through the Šumava hills, we quietly built a catalogue of routes that we would actually want to do ourselves.
+                  In 2018, a small group of route-obsessed guides decided to do travel differently. Starting with a single cycling loop through the Šumava hills, we quietly built a collection of itineraries we would genuinely want to join ourselves.
                 </p>
                 <p>
                   Every route began as a personal project — a weekend ride turned into a trip design, a hiking holiday turned into a repeatable itinerary. We are registered under K.C. NTOMATA LIMITED and operate from a small office in Nicosia, but our guides live and breathe the routes they run.
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="relative h-72 md:h-96 clip-corner overflow-hidden">
               <Image
                 src="/images/about-team.jpg"
-                alt="SportTicketsCzechia team in the field"
+                alt="AuthorToursCzechia team in the field"
                 fill
                 className="object-cover"
               />
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 2019 Nicosia, Cyprus
               </p>
               <p className="text-muted-foreground text-sm mt-2" style={{ fontFamily: 'var(--font-inter)' }}>
-                Trading as <span className="text-foreground">sportticketsczechia.com</span>
+                Trading as <span className="text-foreground">authortoursczechia.com</span>
               </p>
             </div>
           </div>

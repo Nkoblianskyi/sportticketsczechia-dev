@@ -20,10 +20,10 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-8 h-8 border border-neon neon-border relative clip-corner-sm flex items-center justify-center">
-            <span className="text-neon font-sans text-xs font-bold">ST</span>
+            <span className="text-neon font-sans text-xs font-bold">AT</span>
           </div>
           <span className="font-sans text-sm font-bold tracking-widest text-foreground group-hover:text-neon transition-colors uppercase">
-            SportTickets<span className="text-neon">Czechia</span>
+            AuthorTours<span className="text-neon">Czechia</span>
           </span>
         </Link>
 
@@ -39,7 +39,7 @@ export function Navbar() {
             </Link>
           ))}
           <Link href="/tours" className="neon-btn px-4 py-2 text-xs">
-            View All Tours
+            Explore Tours
           </Link>
         </nav>
 
@@ -67,7 +67,7 @@ export function Navbar() {
             </Link>
           ))}
           <Link href="/tours" onClick={() => setOpen(false)} className="neon-btn-filled px-4 py-3 text-center text-xs">
-            View All Tours
+            Explore Tours
           </Link>
         </div>
       )}

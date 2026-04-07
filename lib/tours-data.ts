@@ -1,4 +1,4 @@
-export type TourCategory = 'cycling' | 'moto' | 'marathon' | 'hiking' | 'trail'
+export type TourCategory = 'cycling' | 'moto' | 'hiking'
 
 export interface Tour {
   id: string
@@ -75,31 +75,6 @@ export const tours: Tour[] = [
     groupSize: '4–8 riders',
   },
   {
-    id: '3',
-    slug: 'old-town-marathon-run',
-    title: 'Old Town Night Marathon',
-    category: 'marathon',
-    country: 'Czech Republic',
-    region: 'Central Bohemia',
-    duration: '2 days',
-    difficulty: 'Hard',
-    distance: '42.2 km',
-    startDate: '2026-09-19',
-    endDate: '2026-09-20',
-    image: '/images/tour-marathon-prague.jpg',
-    description: 'A nocturnal 42 km run through illuminated cobblestone streets and riverside promenades of a historic Bohemian city.',
-    longDescription: 'The city transforms after dark. Under soft amber lanterns and cool autumn air, runners set off through winding medieval lanes, across riverside bridges and through grand baroque squares. The route is certified and timed, but the atmosphere is electric rather than clinical. A full-day pre-event camp on Saturday covers pacing strategy, nutrition briefing and a gentle warm-up run along the river. Medals, photography and a post-race dinner are included.',
-    highlights: [
-      'Start at midnight under illuminated city gates',
-      'Riverside kilometre with full moon reflection',
-      'Baroque quarter passage at km 28',
-      'Live acoustic music at the halfway mark',
-      'Post-race warm-down session with physiotherapist',
-    ],
-    includes: ['Race entry & timing chip', 'Pre-race camp (1 day)', 'Accommodation (1 night)', 'Post-race dinner', 'Finisher medal & photos'],
-    groupSize: 'Up to 200 runners',
-  },
-  {
     id: '4',
     slug: 'high-tatras-summit-hike',
     title: 'High Tatras Summit Traverse',
@@ -148,7 +123,7 @@ export const tours: Tour[] = [
       'Ferry crossing with bicycles at sunset',
       'Slovak vineyard picnic on final afternoon',
     ],
-    includes: ['Guide', 'Accommodation (3 nights)', 'Luggage transfer', 'Breakfast daily', 'Ferry tickets'],
+    includes: ['Guide', 'Accommodation (3 nights)', 'Luggage transfer', 'Breakfast daily', 'Ferry crossing fees'],
     groupSize: '8–16 riders',
   },
   {
@@ -176,32 +151,6 @@ export const tours: Tour[] = [
     ],
     includes: ['Lead guide & backup rider', 'Accommodation (6 nights)', 'Dinner daily', 'GPS routes', 'Border crossing documentation support'],
     groupSize: '4–8 riders',
-  },
-  {
-    id: '7',
-    slug: 'dolomites-trail-run',
-    title: 'Dolomites Ultra Trail',
-    category: 'trail',
-    country: 'Italy',
-    region: 'Dolomites',
-    duration: '3 days',
-    difficulty: 'Expert',
-    distance: '65 km',
-    elevation: '4 800 m',
-    startDate: '2026-07-25',
-    endDate: '2026-07-27',
-    image: '/images/tour-trail-dolomites.jpg',
-    description: 'A three-day self-supported trail run through the pink limestone towers of the Dolomites UNESCO World Heritage landscape.',
-    longDescription: 'The Dolomites are a trail runner\'s paradise — dramatic vertical towers, wide scree bowls, and interconnected mountain paths that can be strung into epic multi-day adventures. This three-day route is designed to be experienced running: hut-to-hut, with full pack, in the company of a maximum of six other runners. The guide sets pace checkpoints but allows freedom to run, walk or stop for the view. Total ascent rewards every quad-burning climb with panoramas that feel genuinely earned.',
-    highlights: [
-      'Pre-dawn start with headtorch under the spires',
-      'High ridge traverse at 2 800 m with 360° views',
-      'Scree run descent to emerald lake',
-      'Mountain hut pasta dinner at 2 100 m',
-      'Final pass at sunrise on day three',
-    ],
-    includes: ['Mountain running guide', 'Hut accommodation (2 nights)', 'Dinner & breakfast at huts', 'GPS watch rental optional', 'Safety kit'],
-    groupSize: '3–6 runners',
   },
   {
     id: '8',
@@ -234,9 +183,7 @@ export const tours: Tour[] = [
 export const categoryLabels: Record<TourCategory, string> = {
   cycling: 'Cycling',
   moto: 'Moto',
-  marathon: 'Marathon',
   hiking: 'Hiking',
-  trail: 'Trail Run',
 }
 
 export const difficultyColors: Record<string, string> = {

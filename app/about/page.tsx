@@ -38,7 +38,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-sans text-xl font-bold text-foreground mb-4 text-balance">
-                How AuthorToursCzechia Started
+                How SportTicketsCzechia Started
               </h2>
               <div className="flex flex-col gap-4 text-muted-foreground text-sm leading-relaxed" style={{ fontFamily: 'var(--font-inter)' }}>
                 <p>
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="relative h-72 md:h-96 clip-corner overflow-hidden">
               <Image
                 src="/images/about-team.jpg"
-                alt="AuthorToursCzechia team in the field"
+                alt="SportTicketsCzechia team in the field"
                 fill
                 className="object-cover"
               />
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 2019 Nicosia, Cyprus
               </p>
               <p className="text-muted-foreground text-sm mt-2" style={{ fontFamily: 'var(--font-inter)' }}>
-                Trading as <span className="text-foreground">authortoursczechia.com</span>
+                Trading as <span className="text-foreground">sportticketsczechia.com</span>
               </p>
             </div>
           </div>

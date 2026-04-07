@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const tour = tours.find((t) => t.slug === slug)
   if (!tour) return {}
   return {
-    title: `${tour.title} — AuthorToursCzechia`,
+    title: `${tour.title} — SportTicketsCzechia`,
     description: tour.description,
   }
 }

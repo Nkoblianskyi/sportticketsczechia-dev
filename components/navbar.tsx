@@ -20,10 +20,10 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-8 h-8 border border-neon neon-border relative clip-corner-sm flex items-center justify-center">
-            <span className="text-neon font-sans text-xs font-bold">AT</span>
+            <span className="text-neon font-sans text-xs font-bold">ST</span>
           </div>
           <span className="font-sans text-sm font-bold tracking-widest text-foreground group-hover:text-neon transition-colors uppercase">
-            AuthorTours<span className="text-neon">Czechia</span>
+            SportTickets<span className="text-neon">Czechia</span>
           </span>
         </Link>
 

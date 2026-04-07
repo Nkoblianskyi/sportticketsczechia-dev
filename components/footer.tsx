@@ -18,10 +18,10 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 border border-neon clip-corner-sm flex items-center justify-center">
-                <span className="text-neon font-sans text-xs font-bold">AT</span>
+                <span className="text-neon font-sans text-xs font-bold">ST</span>
               </div>
               <span className="font-sans text-sm font-bold tracking-widest text-foreground uppercase">
-                AuthorTours<span className="text-neon">Czechia</span>
+                SportTickets<span className="text-neon">Czechia</span>
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed" style={{ fontFamily: 'var(--font-inter)' }}>
@@ -29,7 +29,7 @@ export function Footer() {
             </p>
             <div className="mt-4 flex items-center gap-2 text-muted-foreground text-xs">
               <Globe size={12} className="text-neon" />
-              <span style={{ fontFamily: 'var(--font-inter)' }}>authortoursczechia.com</span>
+              <span style={{ fontFamily: 'var(--font-inter)' }}>sportticketsczechia.com</span>
             </div>
           </div>
 
@@ -65,8 +65,8 @@ export function Footer() {
             </div>
             <div className="mt-3 flex items-center gap-2 text-muted-foreground text-sm">
               <Mail size={14} className="text-neon" />
-              <a href="mailto:info@authortoursczechia.com" className="hover:text-neon transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
-                info@authortoursczechia.com
+              <a href="mailto:info@sportticketsczechia.com" className="hover:text-neon transition-colors" style={{ fontFamily: 'var(--font-inter)' }}>
+                info@sportticketsczechia.com
               </a>
             </div>
           </div>
